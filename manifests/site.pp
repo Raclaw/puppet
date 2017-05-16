@@ -1,4 +1,4 @@
 node default {
   include postgresql
-  include nvm
+  include puppet-lint::init
 }
